@@ -4,6 +4,8 @@ date = "2022-11-25"
 author = "Wendell Adriel"
 hideComments = true
 showShare = false
+toc = false
+readingTime = false
 +++
 
 # Hi there

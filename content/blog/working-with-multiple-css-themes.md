@@ -225,4 +225,4 @@ p, span {
 
 In our examples above, we worked with three simple themes, but in larger projects, the complexity of the themes can be much bigger. Thinking about that, I created a lib called **[CSS Theme Manager](https://github.com/WendellAdriel/css-theme-manager)** that helps in the management of themes based in CSS variables, check it out and if you find it interesting, use it in your projects!
 
-I hope that you liked this article and if you do, don’t forget about commenting and sharing this article with your friends!!! See ya! :wink:
+I hope that you liked this article and if you do, don’t forget to share this article with your friends!!! See ya! :wink:

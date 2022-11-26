@@ -189,4 +189,4 @@ Look at the code above… It’s AMAZING!!! We wrote just a few lines of code an
 
 That’s it, I just wanted to show you guys the road that we all passed to get where we are now… JavaScript is an amazing language and it’s getting always better with new amazing features and we have to stop for a moment, read about these features and start using them to improve our code, our productivity and our products and services!
 
-I hope that you enjoyed this article and that it can help you! Bye and see you all in the next article!!! :wink:
+I hope that you liked this article and if you do, don’t forget to share this article with your friends!!! See ya! :wink:

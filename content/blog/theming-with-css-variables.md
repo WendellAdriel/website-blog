@@ -120,6 +120,6 @@ We also made that changes can be really easy to be done. For example if we want 
 
 We saw how to create a consistent and adaptable theme for our projects using only CSS. Using this Two Layers Theming approach, we created a better environment and experience for our teams of devs and designers. You can check an example of the code we created in this article in **[this Codepen](https://codepen.io/WendellAdriel/pen/QPxRjN)**
 
-I hope that you liked this article and if you do, don’t forget about commenting and sharing this article with your friends!!! See ya! :wink:
+I hope that you liked this article and if you do, don’t forget to share this article with your friends!!! See ya! :wink:
 
 

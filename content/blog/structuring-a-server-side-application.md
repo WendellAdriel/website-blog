@@ -77,4 +77,4 @@ In this article, we learned what's the **MVC** architecture, the reason that thi
 
 I hope that this article helped you to have a better understanding of how the architecture and the design of an application can impact A LOT in the final result of our software in order to create a clean, easy to maintain and evolve software.
 
-I hope that you liked this article and if you do, don’t forget about commenting and sharing this article with your friends!!! See ya! :wink:
+I hope that you liked this article and if you do, don’t forget to share this article with your friends!!! See ya! :wink:

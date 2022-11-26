@@ -4,7 +4,6 @@ theme = "terminal"
 paginate = 5
 enableEmoji = true
 enableRobotsTXT = true
-disqusShortname= "wendelladriel-com"
 
 [params]
   # dir name of your main content (default is `content/posts`).

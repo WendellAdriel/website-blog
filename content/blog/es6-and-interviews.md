@@ -59,4 +59,4 @@ I’m not saying that this is the best code, but I think that when they saw this
 
 Well, that’s it!!! I just wanted to show you that being updated with the latest releases of the technologies that are trending in the companies can give you a GREAT ADVANTAGE over other candidates and that sometimes the tests in some interviews are simple, but the way you resolve it MATTERS A LOT!!!
 
-I hope that you enjoyed this article and that it can help you! Bye and see you all in the next article!!! :wink:
+I hope that you liked this article and if you do, don’t forget to share this article with your friends!!! See ya! :wink:
