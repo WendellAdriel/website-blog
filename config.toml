@@ -9,7 +9,7 @@ disqusShortname= "wendelladriel-com"
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+  contentTypeName = "blog"
 
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "blue"
@@ -49,7 +49,7 @@ disqusShortname= "wendelladriel-com"
 
   # whether to show a table of contents
   # can be overridden in a page's front-matter
-  # Toc = false # default
+  Toc = true
 
   # set title for the table of contents
   # can be overridden in a page's front-matter

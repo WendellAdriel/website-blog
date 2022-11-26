@@ -38,7 +38,7 @@
     </div>
   {{ end }}
 
-  <div class="post-content">
+  <div class="post-content" style="text-align: justify;">
     {{- with .Content -}}
       <div>
         {{ . | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor">&#8983;</a> ${3}` | safeHTML }}
@@ -48,7 +48,7 @@
 
   {{ if (.Params.showShare | default true) }}
   <div class="pagination__buttons" style="margin-bottom: 2rem;margin-top: 2rem;">
-    <a href="https://twitter.com/intent/tweet/?text=Read {{ .Title }} by @wendell_adriel at {{ .Permalink }}" target="_blank" class="button">
+    <a href="https://twitter.com/intent/tweet/?text=Read '{{ .Title }}' by @wendell_adriel at {{ .Permalink }}" target="_blank" class="button">
       <span class="button__text">SHARE POST ON TWITTER</span>
     </a>
   </div>
