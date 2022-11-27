@@ -34,6 +34,9 @@ enableRobotsTXT = true
   # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
   showLastUpdated = false
 
+  # set a custom cover for SEO
+  cover = "cover.png"
+
   # set a custom favicon (default is a `themeColor` square)
   favicon = "img/icon.png"
 
