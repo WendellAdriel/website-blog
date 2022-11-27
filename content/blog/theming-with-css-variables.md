@@ -10,7 +10,7 @@ showFullContent = false
 hideComments = false
 +++
 
-# Theming with CSS variables
+## Introduction
 
 It doesn’t matter if we’re creating a website or an admin page or an app, we need to deliver a solid and consistent design always. We can’t have a software where on each page we use a different font or buttons of all colours and shapes. We need to define a pattern, not only because of the visual aspect but when we create a pattern of colours and layout, the users can learn and get used quickly with our product.
 

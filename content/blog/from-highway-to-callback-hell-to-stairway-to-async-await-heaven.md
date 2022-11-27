@@ -10,7 +10,7 @@ showFullContent = false
 hideComments = false
 +++
 
-# From “Highway to (callback) Hell”​ to “Stairway to (async/await) Heaven”​
+## Introduction
 
 Hello there, I’m back to talk a little more about JavaScript. This time I will show how JavaScript changed its way of working with asynchronous code. So…let’s get started!!!
 

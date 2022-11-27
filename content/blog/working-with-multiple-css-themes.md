@@ -10,7 +10,7 @@ showFullContent = false
 hideComments = false
 +++
 
-# Working with multiple CSS themes
+## Introduction
 
 In **[the first article of this series](https://wendelladriel.com/blog/theming-with-css-variables)** we saw how variables work on CSS and how we can use them to create themes for our projects. In this article, we will put this into practice creating some simple themes and seeing how to change between them.
 

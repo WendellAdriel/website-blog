@@ -10,7 +10,7 @@ showFullContent = false
 hideComments = false
 +++
 
-# ES6 and Interviews
+## Introduction
 
 Hello to everyone, I’m here with an article about JavaScript, ES6 and interviews. I’ll talk a little about how ES6 features can help you get the job you want, so let’s get down to it!!!
 
