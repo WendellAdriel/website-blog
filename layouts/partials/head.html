@@ -6,6 +6,7 @@
 <link rel="canonical" href="{{ .Permalink }}" />
 
 {{ template "_internal/google_analytics.html" . }}
+{{ template "_internal/google_analytics_async.html" . }}
 
 {{ $defaultStyles := resources.Get "css/style.scss" }}
 <!-- Local Theme Variables -->

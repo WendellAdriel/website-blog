@@ -4,6 +4,7 @@ theme = "terminal"
 paginate = 5
 enableEmoji = true
 enableRobotsTXT = true
+googleAnalytics = "UA-132287365-2"
 
 [params]
   # dir name of your main content (default is `content/posts`).
@@ -68,7 +69,7 @@ enableRobotsTXT = true
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Wendell Adriel"
+    title = "Wendell Adriel - Software Engineer"
     subtitle = "Software Engineer | Investor | Amateur Photographer | Musician | INFP"
     owner = "Wendell Adriel"
     keywords = ""
