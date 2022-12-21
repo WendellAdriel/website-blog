@@ -70,7 +70,7 @@ googleAnalytics = "UA-132287365-2"
   [languages.en]
     languageName = "English"
     title = "Wendell Adriel - Software Engineer"
-    subtitle = "Software Engineer | Investor | Amateur Photographer | Musician | INFP"
+    subtitle = "Software Engineer | Web Artisan | PHP && Laravel && Open Source Enthusiast"
     owner = "Wendell Adriel"
     keywords = ""
     copyright = "All rights reserved<br />Created with ♥ by Wendell Adriel"
