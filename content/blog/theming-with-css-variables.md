@@ -6,6 +6,7 @@ authorTwitter = "wendell_adriel"
 tags = ["css", "front-end"]
 keywords = ["css", "theming", "front-end"]
 description = "Let's learn how to theme websites using CSS variables"
+cover = "img/blog/theme_css_variables.png"
 showFullContent = false
 hideComments = false
 +++

@@ -6,6 +6,7 @@ authorTwitter = "wendell_adriel"
 tags = ["javascript", "front-end", "back-end"]
 keywords = ["javascript", "interview", "career"]
 description = "Let's see how ES6 features can help you get the job you want"
+cover = "img/blog/es6_interviews.png"
 showFullContent = false
 hideComments = false
 +++

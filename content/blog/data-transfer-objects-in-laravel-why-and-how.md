@@ -6,6 +6,7 @@ authorTwitter = "wendell_adriel"
 tags = ["back-end", "php", "laravel", "architecture"]
 keywords = ["php", "laravel", "architecture", "dto"]
 description = "Data Transfer Objects can be a great way to improve your applications. Let's learn why and how to use them in Laravel"
+cover = "img/blog/laravel_dtos.png"
 showFullContent = false
 hideComments = false
 +++

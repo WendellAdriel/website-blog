@@ -6,6 +6,7 @@ authorTwitter = "wendell_adriel"
 tags = ["back-end", "architecture"]
 keywords = ["back-end", "architecture", "server", "mvc"]
 description = "Let's learn how we can structure a server-side application in a simple way, while using a clean and efficient architecture that could be used for small to large applications"
+cover = "img/blog/structure_server_side.png"
 showFullContent = false
 hideComments = false
 +++
