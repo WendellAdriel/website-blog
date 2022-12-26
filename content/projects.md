@@ -16,6 +16,10 @@ readingTime = false
 
 Data Transfer Objects with validation for **[Laravel](https://github.com/laravel/framework)** applications
 
+### [Laravel Model Completed](https://github.com/WendellAdriel/laravel-model-completed)
+
+**[Laravel](https://github.com/laravel/framework)** helper to know the completion status of an Eloquent Model
+
 ### [Laravel Caller](https://github.com/WendellAdriel/laravel-caller)
 
 Create HTTP clients for external services easily
