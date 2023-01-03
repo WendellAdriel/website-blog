@@ -1,10 +1,16 @@
 {{ define "main" }}
   <div class="index-content framed">
     <h1>Hi there!</h1>
-    <p>My name is <strong>Wendell Adriel</strong> and below you'll find articles that I wrote.</p>
-    <p>You can find more info <a href="/about"><strong>about me here</strong></a>.</p>
-    <p>You can see some of my <a href="/projects"><strong>contributions to Open source here</strong></a>.</p>
-    <p>Contact me using the links in the footer.</p>
+    <p>My name is <strong>Wendell Adriel</strong>!</p>
+    <p>
+      Web Artisan specialized in <strong>PHP/Laravel</strong> 😎 Open Source Enthusiast 🔥
+      13+ yrs of XP in Web-Dev 🤘
+      Mentored dozens of Devs 🎓
+    </p>
+    <p>
+      Subscribe to my <a href="https://laraletter.substack.com" target="_blank"><strong>Newsletter</strong></a>
+      to receive a collection of tips and news right into your inbox!
+    </p>
   </div>
   <div class="posts">
     {{ $isntDefault := not (or (eq (trim $.Site.Params.contentTypeName " ") "posts") (eq (trim $.Site.Params.contentTypeName " ") "")) }}

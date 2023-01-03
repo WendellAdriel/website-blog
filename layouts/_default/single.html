@@ -54,6 +54,17 @@
   </div>
   {{ end }}
 
+  <div class="index-content framed">
+    Follow me on <a href="https://twitter.com/wendell_adriel" target="_blank"><strong>Twitter</strong></a>
+    and subscribe to my <strong>Newsletter</strong> for 🔥 tips and news about <strong>Laravel and PHP</strong>!
+
+    <div class="pagination__buttons">
+      <a href="https://laraletter.substack.com" target="_blank" class="button">
+        SUBSCRIBE TO NEWSLETTER
+      </a>
+    </div>
+  </div>
+
   {{ if eq .Type $.Site.Params.contentTypeName }}
     {{ partial "posts_pagination.html" . }}
   {{ end }}

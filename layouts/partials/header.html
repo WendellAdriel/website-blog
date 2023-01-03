@@ -1,0 +1,15 @@
+<header class="header">
+  <a href="{{ if $.Site.Params.Logo.LogoHomeLink }}{{ $.Site.Params.Logo.LogoHomeLink }}{{else}}{{ $.Site.BaseURL }}{{ end }}">
+    <img src="/img/banner.png" alt="Wendell Adriel - Web Artisan" class="center" />
+  </a>
+  <div class="header__inner">
+    {{ if and $.Site.Params.showLanguageSelector (len $.Site.Home.AllTranslations) }}
+      {{ partial "language-menu.html" . }}
+    {{ end }}
+  </div>
+  {{ if len $.Site.Menus }}
+    {{ partial "menu.html" . }}
+  {{ end }}
+
+  <hr />
+</header>
