@@ -53,7 +53,7 @@ or **already contributed** to the following projects:
 
 ### [Laravel](https://github.com/laravel/framework)
 
-I contributed with some small bug fixes
+I already contributed with some PRs that were merged into the codebase
 
 ### [React](https://github.com/reactjs/reactjs.org)
 
