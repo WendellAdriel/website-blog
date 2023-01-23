@@ -218,7 +218,8 @@ class UserController extends Controller
      */
     public function destroy(int $userId, DeleteUser $action): JsonResponse
     {
-        return response()->json($action->handle($userId));
+        $action->handle($userId);
+        return response()->noContent();
     }
 }
 {{< /code >}}
