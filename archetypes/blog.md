@@ -6,7 +6,7 @@ authorTwitter = "wendell_adriel"
 tags = ["", ""]
 keywords = ["", ""]
 description = ""
-cover = ""
+cover = "img/blog/xxxxx.png"
 showFullContent = false
 hideComments = false
 +++
