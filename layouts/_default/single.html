@@ -47,7 +47,7 @@
   </div>
 
   {{ if (.Params.showShare | default true) }}
-  <div class="pagination__buttons">
+  <div class="pagination__buttons" style="margin-bottom: 1rem;">
     <a href="https://twitter.com/intent/tweet/?text=Read '{{ .Title }}' by @wendell_adriel at {{ .Permalink }}" target="_blank" class="button">
       <span class="button__text">SHARE POST ON TWITTER</span>
     </a>
