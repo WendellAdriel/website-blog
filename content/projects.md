@@ -16,6 +16,10 @@ readingTime = false
 
 Data Transfer Objects with validation for **[Laravel](https://github.com/laravel/framework)** applications
 
+### [Strictus](https://github.com/php-strictus/strictus)
+
+Strict Typing for local variables in PHP
+
 ### [ExA](https://github.com/WendellAdriel/laravel-exa)
 
 Opinionated Modularized API Skeleton for **[Laravel](https://github.com/laravel/framework)**
