@@ -4,12 +4,12 @@
     <p>My name is <strong>Wendell Adriel</strong>!</p>
     <p>
       Web Artisan specialized in <strong>PHP/Laravel</strong> 😎 Open Source Enthusiast 🔥
-      13+ yrs of XP in Web-Dev 🤘
+      13+ years of XP in Web-Dev 🤘
       Mentored dozens of Devs 🎓
     </p>
   </div>
 
-  {{ partial "newsletter.html" . }}
+<!--  {{ partial "newsletter.html" . }}-->
 
   <div class="posts">
     {{ $isntDefault := not (or (eq (trim $.Site.Params.contentTypeName " ") "posts") (eq (trim $.Site.Params.contentTypeName " ") "")) }}
