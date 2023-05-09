@@ -63,6 +63,10 @@ or **already contributed** to the following projects:
 
 I already contributed with some PRs that were merged into the codebase
 
+### [Minicli](https://github.com/minicli/minicli)
+
+I already contributed with some PRs that were merged into the codebase
+
 ### [React](https://github.com/reactjs/reactjs.org)
 
 I contributed to the translation of the docs to Brazilian Portuguese
