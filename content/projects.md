@@ -12,6 +12,10 @@ readingTime = false
 
 > I'm an **Open Source** enthusiast and below you can see a list of some **Open Source** projects that I created
 
+### [Miniterm](https://github.com/minicli/miniterm)
+
+Minicli Application Template powered with Termwind and Plates
+
 ### [Laravel Validated DTO](https://github.com/WendellAdriel/laravel-validated-dto)
 
 Data Transfer Objects with validation for **[Laravel](https://github.com/laravel/framework)** applications
@@ -59,11 +63,11 @@ Small library to work with the local storage implementing lifetime for its items
 > Besides the projects above, I'm trying to get more involved in the **Open Source** community. I **contribute**
 or **already contributed** to the following projects:
 
-### [Laravel](https://github.com/laravel/framework)
-
-I already contributed with some PRs that were merged into the codebase
-
 ### [Minicli](https://github.com/minicli/minicli)
+
+I'm one of the maintainers of this project
+
+### [Laravel](https://github.com/laravel/framework)
 
 I already contributed with some PRs that were merged into the codebase
 
