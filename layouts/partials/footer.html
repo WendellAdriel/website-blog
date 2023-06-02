@@ -1,54 +1,121 @@
-<footer>
-  <hr style="margin-bottom: 2rem;">
-
-  <div class="pagination__buttons">
-    <a href="https://linkedin.com/in/mr-wendell-adriel" target="_blank" rel="noreferrer" class="button">
-      <span class="button__text">LINKEDIN</span>
-    </a>
-
-    <a href="https://github.com/WendellAdriel" target="_blank" rel="noreferrer" class="button">
-      <span class="button__text">GITHUB</span>
-    </a>
-
-    <a href="https://twitter.com/wendell_adriel" target="_blank" rel="noreferrer" class="button">
-      <span class="button__text">TWITTER</span>
-    </a>
-
-<!--    <a href="https://laraletter.substack.com" target="_blank" class="button">-->
-<!--      <span class="button__text">NEWSLETTER</span>-->
-<!--    </a>-->
-
-    <a href="https://unsplash.com/@wendell_adriel" target="_blank" rel="noreferrer" class="button">
-      <span class="button__text">UNSPLASH</span>
-    </a>
-
-    <a href="mailto:contact@wendelladriel.com?subject=Website%20Contact" target="_blank" rel="noreferrer" class="button">
-      <span class="button__text">E-MAIL</span>
-    </a>
-  </div>
-
-  <div class="footer footer__inner" style="padding-top: 1rem;">
-    {{ if $.Site.Copyright }}
-      <div class="copyright copyright--user" style="width: 100%;">
-        <span>
-          © {{ now.Year }} {{ $.Site.Copyright | safeHTML }}<br />
-          Powered by <a href="http://gohugo.io" target="_blank" rel="noreferrer">Hugo</a> :: Theme made by <a href="https://twitter.com/panr" target="_blank" rel="noreferrer">panr</a>
-        </span>
-    {{ else }}
-      <div class="copyright">
-        <span>© {{ now.Year }} Powered by <a href="http://gohugo.io" target="_blank" rel="noreferrer">Hugo</a></span>
-        <span>:: Theme made by <a href="https://twitter.com/panr" target="_blank" rel="noreferrer">panr</a></span>
-    {{ end }}
+<footer class="py-10 print:hidden">
+  {{/* Footer menu */}}
+  {{ if .Site.Menus.footer }}
+    <nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+      <ul class="flex list-none flex-col sm:flex-row">
+        {{ range .Site.Menus.footer }}
+          <li class="group mb-1 ltr:text-right rtl:text-left sm:mb-0 sm:me-7 sm:last:me-0">
+            {{ if eq .Params.action "search" }}
+              {{ $.Scratch.Add "searchCount" 1 }}
+              {{ if $.Site.Params.enableSearch | default false }}
+                <button
+                  id="search-button-{{ $.Scratch.Get "searchCount" }}"
+                  title="{{ .Title | default (i18n "search.open_button_title") }}"
+                >
+                  {{ with .Params.icon }}
+                    <span
+                      class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                    >
+                      {{ partial "icon.html" . }}
+                    </span>
+                  {{ end }}{{ if .Params.showName | default true }}
+                    <span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >{{ .Name | markdownify | emojify }}</span
+                    >
+                  {{ end }}
+                </button>
+              {{ end }}
+            {{ else if eq .Params.action "appearance" }}
+              {{ $.Scratch.Add "switchCount" 1 }}
+              <button
+                id="appearance-switcher-{{ $.Scratch.Get "switchCount" }}"
+                type="button"
+                aria-label="appearance switcher"
+              >
+                <span
+                  class="group-dark:hover:text-primary-400 inline transition-colors group-hover:text-primary-600 dark:hidden"
+                  title="{{ i18n "footer.dark_appearance" }}"
+                >
+                  {{ partial "icon.html" "moon" }}
+                </span>
+                <span
+                  class="group-dark:hover:text-primary-400 hidden transition-colors group-hover:text-primary-600 dark:inline"
+                  title="{{ i18n "footer.light_appearance" }}"
+                >
+                  {{ partial "icon.html" "sun" }}
+                </span>
+              </button>
+            {{ else }}
+              <a
+                href="{{ .URL }}"
+                title="{{ .Title }}"
+                {{ with .Params.target }}target="{{ . }}"{{ end }}
+                >{{ with .Params.icon }}
+                  <span
+                    class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                  >
+                    {{ partial "icon.html" . }}
+                  </span>
+                {{ end }}{{ if .Params.showName | default true }}
+                  <span
+                    class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                    >{{ .Name | markdownify | emojify }}</span
+                  >
+                {{ end }}</a
+              >
+            {{ end }}
+          </li>
+        {{ end }}
+      </ul>
+    </nav>
+  {{ end }}
+  <div class="flex flex-col items-center justify-center text-center">
+    <div>
+      {{/* Copyright */}}
+      <p class="text-base text-neutral-500 dark:text-neutral-400 font-bold">
+        &copy;
+        {{ now.Format "2006" }}
+        {{ .Site.Author.name | markdownify | emojify }}
+        <br />{{ .Site.Params.copyright | markdownify | emojify }}
+      </p>
+      {{/* Theme attribution */}}
+      {{ if .Site.Params.footer.showThemeAttribution | default true }}
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+          {{ $hugo := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>`
+          }}
+          {{ $congo := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://git.io/hugo-congo" target="_blank" rel="noopener noreferrer">Congo</a>` }}
+          {{ i18n "footer.powered_by" (dict "Hugo" $hugo "Congo" $congo) | safeHTML }}
+        </p>
+      {{ end }}
+    </div>
+    {{/* Appearance switcher */}}
+    {{ if .Site.Params.footer.showAppearanceSwitcher | default false }}
+      <div
+        class="{{ if .Site.Params.footer.showScrollToTop | default true -}}
+          me-14
+        {{- end }} cursor-pointer text-2xl text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+      >
+        <button id="appearance-switcher-0" type="button" aria-label="appearance switcher">
+          <div
+            class="flex h-12 w-12 items-center justify-center dark:hidden"
+            title="{{ i18n "footer.dark_appearance" }}"
+          >
+            {{ partial "icon.html" "moon" }}
+          </div>
+          <div
+            class="hidden h-12 w-12 items-center justify-center dark:flex"
+            title="{{ i18n "footer.light_appearance" }}"
+          >
+            {{ partial "icon.html" "sun" }}
+          </div>
+        </button>
       </div>
+    {{ end }}
   </div>
+  {{/* Extend footer - eg. for extra scripts, etc. */}}
+  {{ if templates.Exists "partials/extend-footer.html" }}
+    {{ partial "extend-footer.html" . }}
+  {{ end }}
 </footer>
-
-{{ $menu := resources.Get "js/menu.js" | js.Build }}
-{{ $prism := resources.Get "js/prism.js" | js.Build }}
-
-{{ $bundle := slice $menu $prism | resources.Concat "bundle.js" | resources.Minify }}
-
-<script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
-
-<!-- Extended footer section-->
-{{ partial "extended_footer.html" . }}

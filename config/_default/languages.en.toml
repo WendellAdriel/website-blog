@@ -1,0 +1,28 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+
+title = "Wendell Adriel"
+copyright = "All rights reserved."
+
+[params]
+  isoCode = "en"
+  displayName = "EN"
+  rtl = false
+
+  dateFormat = "2 January 2006"
+
+  # mainSections = ["section1", "section2"]
+  # description = "My awesome website"
+
+[author]
+  name = "Wendell Adriel"
+  image = "img/me.jpg"
+  headline = "Lead Software Engineer"
+  bio = "Web Artisan specialized in **PHP/Laravel**, Open Source Enthusiast :fire:, 13+ years of XP in Web-Dev, Mentored dozens of Devs"
+  links = [
+    { email = "mailto:contact@wendelladriel.com" },
+    { github = "https://github.com/WendellAdriel" },
+    { linkedin = "https://linkedin.com/in/mr-wendell-adriel" },
+    { twitter = "https://twitter.com/wendell_adriel" },
+  ]

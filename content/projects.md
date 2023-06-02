@@ -1,11 +1,12 @@
 +++
 title = "Projects"
 date = "2022-12-16"
-author = "Wendell Adriel"
-hideComments = true
-showShare = false
-toc = false
-readingTime = false
+showDate = false
+showAuthor = false
+showWordCount = false
+showReadingTime = false
+sharingLinks = false
+showTableOfContents = false
 +++
 
 ## Open Source Projects
