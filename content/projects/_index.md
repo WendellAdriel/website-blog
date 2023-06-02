@@ -11,7 +11,9 @@ showTableOfContents = false
 
 ## Open Source Projects
 
-> I'm an **Open Source** enthusiast and below you can see a list of some **Open Source** projects that I created
+{{<alert "github">}}
+I'm an **Open Source** enthusiast and below you can see a list of some **Open Source** projects that I created
+{{</alert>}}
 
 ### [Miniterm](https://github.com/minicli/miniterm)
 
@@ -61,8 +63,10 @@ Small library to work with the local storage implementing lifetime for its items
 
 ## Open Source Contributions
 
-> Besides the projects above, I'm trying to get more involved in the **Open Source** community. I **contribute**
+{{<alert "github">}}
+Besides the projects above, I'm trying to get more involved in the **Open Source** community. I **contribute**
 or **already contributed** to the following projects:
+{{</alert>}}
 
 ### [Minicli](https://github.com/minicli/minicli)
 

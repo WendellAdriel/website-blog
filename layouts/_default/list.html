@@ -13,7 +13,7 @@
       {{ end }}
     </h1>
   </header>
-  <hr>
+  <hr class="border-dotted border-neutral-400" />
   <section
     class="{{ if $toc -}}
       mt-12
@@ -51,11 +51,5 @@
       {{ end }}
     </section>
     {{ partial "pagination.html" . }}
-  {{ else }}
-    <section class="mt-10 prose dark:prose-invert">
-      <p class="py-8 border-t">
-        <em>{{ i18n "list.no_articles" | emojify }}</em>
-      </p>
-    </section>
   {{ end }}
 {{ end }}

@@ -1,9 +1,9 @@
-<article class="mt-6 flex max-w-prose flex-row">
+<article class="mt-6 flex flex-col sm:flex-row">
   {{- $images := $.Resources.ByType "image" }}
   {{- $thumbnail := $images.GetMatch (.Params.thumbnail | default "*thumb*") }}
   {{- $feature := $images.GetMatch (.Params.feature | default "*feature*") | default $thumbnail }}
   {{- with $feature }}
-    <div class="flex-none pe-4 sm:pe-6">
+    <div class="flex-none pe-4 sm:pe-6 md:w-1/3">
       <a
         href="{{ with $.Params.externalUrl }}
           {{ . }}
@@ -18,17 +18,17 @@
             class="w-24 max-w-[6rem] max-h-[4.5rem] rounded-md sm:max-h-[7.5rem] sm:w-40
             sm:max-w-[10rem]" src="{{ .RelPermalink }}"
           {{ else }}
-            class="w-24 rounded-md sm:w-40" srcset="
-            {{- (.Fill "160x120 smart").RelPermalink }}
-            160w, {{- (.Fill "320x240 smart").RelPermalink }} 2x"
-            src="{{ (.Fill "160x120 smart").RelPermalink }}"
+            class="w-1/3 rounded-md" srcset="
+            {{- (.Fill "600x330 smart").RelPermalink }}
+            160w, {{- (.Fill "1200x660 smart").RelPermalink }} 2x"
+            src="{{ (.Fill "600x330 smart").RelPermalink }}"
           {{ end }}
         />
       </a>
     </div>
   {{- end }}
   <div>
-    <h3 class="flex items-center text-xl font-semibold">
+    <h3 class="flex items-center text-2xl font-bold">
       {{ with .Params.externalUrl }}
         <div>
           <a
@@ -63,7 +63,7 @@
         {{ partial "extend-article-link.html" . }}
       {{ end }}
     </h3>
-    <p class="text-sm text-neutral-400 mt-1 mb-2">
+    <p class="text-sm text-neutral-400 mt-1 mb-3" style="text-align: justify;">
       {{ .Description | emojify }}
     </p>
     <div class="text-sm text-neutral-500 dark:text-neutral-400">
