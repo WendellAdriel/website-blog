@@ -1,14 +1,9 @@
 +++
 title = "Laravel AaaS - Actions as a Service"
 date = "2023-01-23T10:16:21Z"
-author = "Wendell Adriel"
-authorTwitter = "wendell_adriel"
-tags = ["back-end", "php", "laravel", "architecture"]
-keywords = ["php", "laravel", "architecture", "laravel actions", "laravel services", "AaaS", "Actions as a Service", "invokable controllers", "architectural pattern"]
 description = "Action classes and Invokable Controllers are a hot topic in Laravel nowadays. In this article I'll explain why I think Invokable Controllers are a bad idea and an architectural pattern I created and named as AaaS."
-cover = "img/blog/laravel_aaas.png"
-showFullContent = false
-hideComments = false
+keywords = ["php", "laravel", "architecture", "laravel actions", "laravel services", "AaaS", "Actions as a Service", "invokable controllers", "architectural pattern"]
+topics = ["back-end", "php", "laravel", "architecture"]
 +++
 
 ## Introduction

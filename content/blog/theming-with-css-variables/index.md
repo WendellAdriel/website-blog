@@ -1,14 +1,9 @@
 +++
 title = "Theming With CSS Variables"
 date = "2019-04-25T10:00:00Z"
-author = "Wendell Adriel"
-authorTwitter = "wendell_adriel"
-tags = ["css", "front-end"]
-keywords = ["css", "theming", "front-end", "css themes", "css theming", "css variables"]
 description = "Let's learn how to theme websites using CSS variables"
-cover = "img/blog/theme_css_variables.png"
-showFullContent = false
-hideComments = false
+keywords = ["css", "theming", "front-end", "css themes", "css theming", "css variables"]
+topics =["css", "front-end"]
 +++
 
 ## Introduction

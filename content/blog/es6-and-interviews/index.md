@@ -1,14 +1,9 @@
 +++
 title = "ES6 and Interviews"
 date = "2016-12-27T10:00:00Z"
-author = "Wendell Adriel"
-authorTwitter = "wendell_adriel"
-tags = ["javascript", "front-end", "back-end"]
-keywords = ["javascript", "interview", "career", "es6", "es6 interviews"]
 description = "Let's see how ES6 features can help you get the job you want"
-cover = "img/blog/es6_interviews.png"
-showFullContent = false
-hideComments = false
+keywords = ["javascript", "interview", "career", "es6", "es6 interviews"]
+topics = ["javascript", "front-end", "back-end"]
 +++
 
 ## Introduction

@@ -1,14 +1,9 @@
 +++
 title = "From 'Highway to (callback) Hell' to 'Stairway to (async/await) Heaven'"
 date = "2017-03-01T10:00:00Z"
-author = "Wendell Adriel"
-authorTwitter = "wendell_adriel"
-tags = ["javascript", "front-end", "back-end"]
-keywords = ["javascript", "promises", "async", "callback", "async await javascript", "javascript http calls"]
 description = "Let's learn the new way of working with asynchronous code on JavaScript"
-cover = "img/blog/callback_async_await.png"
-showFullContent = false
-hideComments = false
+keywords = ["javascript", "promises", "async", "callback", "async await javascript", "javascript http calls"]
+topics = ["javascript", "front-end", "back-end"]
 +++
 
 ## Introduction

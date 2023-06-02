@@ -1,14 +1,9 @@
 +++
 title = "Laravel Collections: The Artisan's Guide"
 date = "2023-01-16T19:00:00Z"
-author = "Wendell Adriel"
-authorTwitter = "wendell_adriel"
-tags = ["back-end", "php", "laravel"]
-keywords = ["back-end", "php", "laravel", "laravel collection", "laravel collections", "laravel collection guide", "laravel collections how to", "laravel collection from zero", "laravel artisan"]
 description = "Laravel Collections are really powerful for working with arrays of data. Let's learn how to use the methods they provide to improve our applications."
-cover = "img/blog/laravel_collections.png"
-showFullContent = false
-hideComments = false
+keywords = ["back-end", "php", "laravel", "laravel collection", "laravel collections", "laravel collection guide", "laravel collections how to", "laravel collection from zero", "laravel artisan"]
+topics =["back-end", "php", "laravel"]
 +++
 
 ## Introduction

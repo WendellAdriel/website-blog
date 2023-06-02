@@ -18,7 +18,7 @@ copyright = "All rights reserved."
 [author]
   name = "Wendell Adriel"
   image = "img/me.jpg"
-  headline = "Lead Software Engineer"
+  headline = "Lead Software Engineer @ TrackStreet"
   bio = "Web Artisan specialized in **PHP/Laravel**, Open Source Enthusiast :fire:, 13+ years of XP in Web-Dev, Mentored dozens of Devs"
   links = [
     { email = "mailto:contact@wendelladriel.com" },

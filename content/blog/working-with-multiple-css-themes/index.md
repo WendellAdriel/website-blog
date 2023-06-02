@@ -1,14 +1,9 @@
 +++
 title = "Working With Multiple CSS Themes"
 date = "2019-04-27T10:00:00Z"
-author = "Wendell Adriel"
-authorTwitter = "wendell_adriel"
-tags = ["css", "front-end"]
-keywords = ["css", "theming", "front-end", "css themes", "css theming", "css multiple themes"]
 description = "Let's learn how to create and work with multiple themes in CSS"
-cover = "img/blog/multiple_css_themes.png"
-showFullContent = false
-hideComments = false
+keywords = ["css", "theming", "front-end", "css themes", "css theming", "css multiple themes"]
+topics =["css", "front-end"]
 +++
 
 ## Introduction

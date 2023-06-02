@@ -16,14 +16,9 @@
   weight = 10
 
 [[main]]
-  name = "Topics"
-  pageRef = "topics"
-  weight = 20
-
-[[main]]
   name = "Projects"
   pageRef = "projects"
-  weight = 30
+  weight = 20
 
 [[main]]
   identifier = "search"
